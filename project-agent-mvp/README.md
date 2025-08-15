@@ -19,3 +19,4 @@ Next.js 14 + Tailwind + Supabase starter with RTL Hebrew UI.
    ```
 
 Deploy to Vercel by pushing this project and connecting the repo or using the Vercel CLI.
+
