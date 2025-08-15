@@ -1,6 +1,10 @@
 import "./globals.css";
 
-export const metadata = { title: "Project Agent" };
+export const metadata: import("next").Metadata = {
+  title: "Project Agent",
+  icons: { icon: "/favicon.svg" },
+  manifest: "/site.webmanifest",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

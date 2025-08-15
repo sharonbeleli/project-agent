@@ -18,5 +18,12 @@ Next.js 14 + Tailwind + Supabase starter with RTL Hebrew UI.
    npm start
    ```
 
-Deploy to Vercel by pushing this project and connecting the repo or using the Vercel CLI.
+Deploy to Vercel by pushing this project and connecting the repo or using the Vercel CLI. When configuring the project on Vercel, set the **Root Directory** to `project-agent-mvp` so the app's `package.json` and routes are detected and you don't receive a 404.
 
+## Troubleshooting
+
+If you encounter deployment issues on Vercel, refer to their [error code documentation](https://vercel.com/docs/errors) for guidance.
+
+## Assets
+
+This repository avoids binary assets in the `public` folder. Placeholder SVGs (for example `avatar.svg` and `favicon.svg`) are used so the project can be stored entirely as text. In production, you may replace these SVGs with real images if desired.
