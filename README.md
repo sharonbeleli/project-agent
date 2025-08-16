@@ -18,10 +18,16 @@ Next.js 14 + Tailwind + Supabase starter with RTL Hebrew UI.
    npm start
    ```
 
-The application's home page lives at `app/page.tsx`, and a simple health-check endpoint is available at `app/api/health/route.ts`.
+## Deployment (Vercel)
+The production Next.js app lives inside the `project-agent-mvp` folder.  
+In Vercel **Project Settings → General**, set **Root Directory** to `project-agent-mvp` so routes resolve correctly.  
+The `vercel.json` at the repo root only defines build/dev commands.
+
+- Home page: `project-agent-mvp/app/page.tsx`  
+- Health check: `project-agent-mvp/app/api/health/route.ts`
 
 ## Assets
-Binary images are not stored in this repository. SVG placeholders (for example `public/avatar.svg` and `public/favicon.svg`) keep the repo text-only. Replace them with real images in production if desired.
+Binary images are not stored in this repository. SVG placeholders (e.g. `project-agent-mvp/public/avatar.svg`, `project-agent-mvp/public/favicon.svg`) are used so the repo remains text-only. Replace them with real images in production if needed.
 
 ## Troubleshooting
-If you encounter deployment issues on Vercel, refer to their [error code documentation](https://vercel.com/docs/errors) for guidance.
+If you encounter deployment issues on Vercel, refer to their [error code documentation](https://vercel.com/docs/errors).
