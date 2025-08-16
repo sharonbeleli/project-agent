@@ -1,6 +1,6 @@
 import "./globals.css";
 
-export const metadata = {
+export const metadata: import("next").Metadata = {
   title: "Project Agent",
   icons: { icon: "/favicon.svg" },
   manifest: "/site.webmanifest",
