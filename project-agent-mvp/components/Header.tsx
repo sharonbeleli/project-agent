@@ -17,7 +17,11 @@ export default function Header() {
         <a className="rounded-full p-2 hover:bg-slate-100" title="סוכן AI">
           🤖
         </a>
-        <img alt="User" src="/avatar.svg" className="w-9 h-9 rounded-full border" />
+        <img
+          alt="User"
+          src="/avatar.svg"
+          className="w-9 h-9 rounded-full border"
+        />
       </div>
     </header>
   );
