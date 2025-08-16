@@ -2,11 +2,7 @@
   "name": "Project Agent",
   "short_name": "ProjectAgent",
   "icons": [
-    {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ],
   "start_url": "/",
   "display": "standalone",
