@@ -1,6 +1,8 @@
 # Project Agent
 
-The Next.js app lives in the `project-agent-mvp` directory. Deploy to Vercel with this directory set as the root to avoid 404 errors.
+The production Next.js app lives inside the `project-agent-mvp` folder.
+Set this folder as the **Root Directory** in Vercel to avoid `404_NOT_FOUND` after deploy.
+The application's home page is at `project-agent-mvp/app/page.tsx`, and a simple health-check endpoint is at `project-agent-mvp/app/api/health/route.ts`.
 
 ## Assets
 
