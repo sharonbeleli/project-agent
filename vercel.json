@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "devCommand": "next dev -p 3000",
+  "buildCommand": "next build"
+}
