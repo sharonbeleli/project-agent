@@ -68,9 +68,15 @@ export default function Page() {
             <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
               <h3 className="font-bold mb-2">אישורים ממתינים</h3>
               <ul className="space-y-2 text-sm">
-                <li className="p-2 rounded-lg border flex justify-between"><span>RFI-24 — שינוי צנרת</span><button className="text-blue-700">פתח</button></li>
-                <li className="p-2 rounded-lg border flex justify-between"><span>חשבונית #204 — קבלן Y</span><button className="text-blue-700">פתח</button></li>
-                <li className="p-2 rounded-lg border flex justify-between"><span>Submittal — משאבות</span><button className="text-blue-700">פתח</button></li>
+                <li className="p-2 rounded-lg border flex justify-between">
+                  <span>RFI-24 — שינוי צנרת</span><button className="text-blue-700">פתח</button>
+                </li>
+                <li className="p-2 rounded-lg border flex justify-between">
+                  <span>חשבונית #204 — קבלן Y</span><button className="text-blue-700">פתח</button>
+                </li>
+                <li className="p-2 rounded-lg border flex justify-between">
+                  <span>Submittal — משאבות</span><button className="text-blue-700">פתח</button>
+                </li>
               </ul>
             </div>
           </div>
