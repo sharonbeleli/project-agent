@@ -1,9 +1,8 @@
 # Project Agent MVP
+Next.js 14 + Tailwind + Supabase starter with RTL Hebrew UI.
 
-**Deployment:** Vercel Project Settings → General → **Root Directory = `project-agent-mvp`**.  
-All app files live under `project-agent-mvp/`.
-
-- Home page: `project-agent-mvp/app/page.tsx`  
-- Health: `project-agent-mvp/app/api/health/route.ts`
-
-This repo keeps binary assets out of git; SVG placeholders are used.
+## Getting Started
+1. Copy `.env.example` to `.env.local` and fill `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+2. Install dependencies:
+```bash
+npm install
